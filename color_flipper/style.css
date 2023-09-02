@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=PT+Serif:ital,wght@0,400;0,700;1,400&family=Poppins:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    height: 100vh;
+    background-color:darkgrey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+#btnColorChanger{
+    width: 10rem;
+    height: 2rem;
+    border: 1px solid peru;
+    border-radius: 10px;
+    background-color: aqua;
+    font-weight: 400;
+    margin-top: 2rem;
+}
